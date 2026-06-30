@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MZ STORE — Jasa Developer Server Minecraft Profesional</title>
+  <meta name="description" content="MZ STORE menyediakan jasa developer server Minecraft profesional. Server Economy, Anarchy, BL dengan fitur kustom, ekonomi stabil, dan performa terbaik." />
+  <meta property="og:title" content="MZ STORE — Jasa Developer Server Minecraft Profesional" />
+  <meta property="og:description" content="Mewujudkan server impianmu dengan fitur kustom, ekonomi stabil, dan performa terbaik." />
+  <meta property="og:image" content="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/12f0b3423_ChatGPTImage27Jun2026181929.png" />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/12f0b3423_ChatGPTImage27Jun2026181929.png" />
+  <link rel="stylesheet" href="index.css" />
+
+  <!-- Inline SVG icons as data URIs via JS — no external lib needed -->
+</head>
+<body>
+
+<!-- ══════════════════ NAVBAR ══════════════════ -->
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">
+        <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/12f0b3423_ChatGPTImage27Jun2026181929.png" alt="MZ STORE Logo" />
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#harga">Harga</a></li>
+        <li><a href="#fitur">Fitur</a></li>
+        <li><a href="#portofolio">Portofolio</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#testimoni">Testimoni</a></li>
+      </ul>
+
+      <div style="display:flex;align-items:center;gap:0.75rem;">
+        <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20jasa%20pembuatan%20server%20Minecraft" target="_blank" rel="noopener noreferrer" class="nav-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Hubungi Kami
+        </a>
+        <button class="nav-hamburger" id="hamburgerBtn" aria-label="Buka menu">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-menu-close">
+    <button id="closeMenuBtn" aria-label="Tutup menu">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+  </div>
+  <p style="font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:rgba(168,85,247,0.6);letter-spacing:0.18em;margin-bottom:1rem;">// NAVIGASI</p>
+  <nav>
+    <a href="#home"       onclick="closeMenu()"><span>&gt;</span>Home</a>
+    <a href="#harga"      onclick="closeMenu()"><span>&gt;</span>Harga</a>
+    <a href="#fitur"      onclick="closeMenu()"><span>&gt;</span>Fitur</a>
+    <a href="#portofolio" onclick="closeMenu()"><span>&gt;</span>Portofolio</a>
+    <a href="#faq"        onclick="closeMenu()"><span>&gt;</span>FAQ</a>
+    <a href="#testimoni"  onclick="closeMenu()"><span>&gt;</span>Testimoni</a>
+  </nav>
+  <div class="mobile-cta">
+    <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20jasa%20pembuatan%20server%20Minecraft" target="_blank" rel="noopener noreferrer">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      Hubungi Kami
+    </a>
+  </div>
+</div>
+
+
+<!-- ══════════════════ HERO ══════════════════ -->
+<section id="home">
+  <!-- Background -->
+  <div class="grid-bg"></div>
+  <div class="orb orb-purple" style="width:420px;height:420px;top:15%;left:-120px;"></div>
+  <div class="orb orb-cyan"   style="width:380px;height:380px;bottom:15%;right:-120px;"></div>
+
+  <div class="container">
+    <div class="hero-inner">
+
+      <!-- Left -->
+      <div>
+        <div class="hero-badge glass-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          SYSTEM :: READY TO BUILD
+        </div>
+
+        <h1 class="hero-title">
+          Jasa Developer<br>
+          <span class="gradient-purple">Server Minecraft</span><br>
+          Profesional
+        </h1>
+
+        <p class="hero-sub">
+          Mewujudkan server impianmu dengan fitur kustom, ekonomi stabil, dan performa terbaik. Dari konsep hingga rilis — kami handle semuanya.
+        </p>
+
+        <div class="hero-btns">
+          <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20jasa%20pembuatan%20server%20Minecraft" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            Order Sekarang
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#harga" class="btn-ghost">Lihat Paket</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-val">50+</div>
+            <div class="hero-stat-label font-mono">Server Selesai</div>
+          </div>
+          <div>
+            <div class="hero-stat-val">100%</div>
+            <div class="hero-stat-label font-mono">Client Puas</div>
+          </div>
+          <div>
+            <div class="hero-stat-val">24/7</div>
+            <div class="hero-stat-label font-mono">Support</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Image Viewport -->
+      <div class="hero-viewport">
+        <div class="terminal-window glass-card glow-purple">
+          <div class="terminal-header">
+            <div class="dot dot-red"></div>
+            <div class="dot dot-yellow"></div>
+            <div class="dot dot-green"></div>
+            <span class="terminal-title">server_preview.exe</span>
+          </div>
+          <div class="terminal-body">
+            <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/cb1b832b5_Screenshot2026-03-03140915.png" alt="Preview Server Minecraft MZ STORE — Player dengan armor ungu di depan spawn" loading="lazy" />
+            <div class="scanline"></div>
+          </div>
+        </div>
+
+        <div class="float-card glass-card glow-cyan float-1">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/4ac9746c9_Screenshot2026-03-02115107.png" alt="Preview Player Shop" loading="lazy" />
+        </div>
+        <div class="float-card glass-card float-2">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/6042400ed_Screenshot2026-03-03140403.png" alt="Preview Village Shop" loading="lazy" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ HARGA ══════════════════ -->
+<section id="harga">
+  <div class="orb orb-purple" style="width:500px;height:500px;top:0;left:50%;transform:translateX(-50%);"></div>
+
+  <div class="container" style="position:relative;">
+    <div class="text-center" style="margin-bottom:4rem;">
+      <span class="section-label text-amethyst">// TIERED_PROTOCOL</span>
+      <h2 class="section-title">Pilih <span class="gradient-purple">Paket</span> Terbaikmu</h2>
+      <p class="section-sub">Semua paket termasuk instalasi, konfigurasi, dan testing hingga server siap rilis.</p>
+    </div>
+
+    <div class="pricing-grid">
+
+      <!-- Plan 1: Starter -->
+      <div class="plan-card glass-card">
+        <p class="plan-tag text-diamond">STARTER</p>
+        <p class="plan-name">Server Economy Biasa</p>
+        <div class="plan-price">
+          <span class="plan-price-rp">Rp</span>
+          <span class="plan-price-val">30.000</span>
+        </div>
+        <ul class="plan-features">
+          <li><span class="tick text-diamond">[x]</span> Sistem Ekonomi Dasar</li>
+          <li><span class="tick text-diamond">[x]</span> Custom Shop NPC</li>
+          <li><span class="tick text-diamond">[x]</span> Spawn Setup</li>
+          <li><span class="tick text-diamond">[x]</span> Plugin Essentials</li>
+          <li><span class="tick text-diamond">[x]</span> Konfigurasi Performa</li>
+        </ul>
+        <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20paket%20Server%20Economy%20Biasa%20(Rp%2030.000)" target="_blank" rel="noopener noreferrer" class="plan-btn plan-btn-outline">
+          Order Paket Ini
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- Plan 2: Popular -->
+      <div class="plan-card glass-card glow-purple popular">
+        <div class="plan-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          MOST POPULAR
+        </div>
+        <p class="plan-tag text-amethyst">POPULAR</p>
+        <p class="plan-name">Server Eco X BL</p>
+        <div class="plan-price">
+          <span class="plan-price-rp">Rp</span>
+          <span class="plan-price-val">50.000</span>
+        </div>
+        <ul class="plan-features">
+          <li><span class="tick text-amethyst">[x]</span> Semua fitur Starter</li>
+          <li><span class="tick text-amethyst">[x]</span> Sistem Blackmarket</li>
+          <li><span class="tick text-amethyst">[x]</span> Custom Weapons &amp; Armor</li>
+          <li><span class="tick text-amethyst">[x]</span> Gacha System</li>
+          <li><span class="tick text-amethyst">[x]</span> Village Shop (Custom)</li>
+          <li><span class="tick text-amethyst">[x]</span> Anti-Cheat Config</li>
+        </ul>
+        <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20paket%20Server%20Eco%20X%20BL%20(Rp%2050.000)" target="_blank" rel="noopener noreferrer" class="plan-btn plan-btn-solid">
+          Order Paket Ini
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+      <!-- Plan 3: Ultimate -->
+      <div class="plan-card glass-card">
+        <p class="plan-tag text-diamond">ULTIMATE</p>
+        <p class="plan-name">Server Economy X Anarcy X BL</p>
+        <div class="plan-price">
+          <span class="plan-price-rp">Rp</span>
+          <span class="plan-price-val">80.000</span>
+        </div>
+        <ul class="plan-features">
+          <li><span class="tick text-diamond">[x]</span> Semua fitur Popular</li>
+          <li><span class="tick text-diamond">[x]</span> Anarchy Mode Setup</li>
+          <li><span class="tick text-diamond">[x]</span> Token Fragment System</li>
+          <li><span class="tick text-diamond">[x]</span> Custom PvP Arena</li>
+          <li><span class="tick text-diamond">[x]</span> Full Economy Balancing</li>
+          <li><span class="tick text-diamond">[x]</span> Premium Support</li>
+          <li><span class="tick text-diamond">[x]</span> Unlimited Revisi</li>
+        </ul>
+        <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20paket%20Server%20Economy%20X%20Anarcy%20X%20BL%20(Rp%2080.000)" target="_blank" rel="noopener noreferrer" class="plan-btn plan-btn-outline">
+          Order Paket Ini
+          <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ FITUR ══════════════════ -->
+<section id="fitur">
+  <div class="orb orb-cyan" style="width:400px;height:400px;bottom:0;right:-100px;"></div>
+
+  <div class="container" style="position:relative;">
+    <div class="text-center" style="margin-bottom:4rem;">
+      <span class="section-label text-diamond">// FEATURE_MODULES</span>
+      <h2 class="section-title">Fitur <span class="gradient-cyan">Unggulan</span></h2>
+      <p class="section-sub">Setiap server yang kami bangun dilengkapi fitur-fitur kustom yang dirancang untuk pengalaman terbaik.</p>
+    </div>
+
+    <div class="features-grid">
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Custom</span>
+        </div>
+        <p class="feature-title">VILLAGE SHOP</p>
+        <p class="feature-desc">Sistem toko custom dengan NPC interaktif dan UI yang intuitif.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><polygon points="6 3 20 12 6 21 6 3"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Custom</span>
+        </div>
+        <p class="feature-title">TOKEN FRAGMENT</p>
+        <p class="feature-desc">Mata uang custom khusus mode Anarchy &amp; Blackmarket.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><rect x="2" y="2" width="20" height="20" rx="2"/><path d="M16 8h.01M8 16h.01M16 16h.01M8 8h.01M12 12h.01"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Fun</span>
+        </div>
+        <p class="feature-title">GACHA KEREN</p>
+        <p class="feature-desc">Sistem gacha dengan reward random yang bikin nagih.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><path d="M14.5 17.5L3 6V3h3l11.5 11.5"/><path d="M13 19l6-6"/><path d="M16 16l4 4"/><path d="M19 21l2-2"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Gameplay</span>
+        </div>
+        <p class="feature-title">PVP ARENA</p>
+        <p class="feature-desc">Arena PvP kustom dengan matchmaking dan ranking.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Security</span>
+        </div>
+        <p class="feature-title">ANTI-CHEAT</p>
+        <p class="feature-desc">Proteksi server dari hacker dan exploiter.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Dev</span>
+        </div>
+        <p class="feature-title">CUSTOM PLUGIN</p>
+        <p class="feature-desc">Plugin yang disesuaikan dengan kebutuhan servermu.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><path d="M12 3l1.88 5.76a1 1 0 0 0 .95.69H21l-4.88 3.54a1 1 0 0 0-.36 1.12L17.65 20 12 16.27 6.35 20l1.89-5.89a1 1 0 0 0-.36-1.12L3 9.45h6.17a1 1 0 0 0 .95-.69L12 3z"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Custom</span>
+        </div>
+        <p class="feature-title">ENCHANT SYSTEM</p>
+        <p class="feature-desc">Custom enchantment dan upgrade system yang unik.</p>
+      </div>
+
+      <div class="feature-card glass-card">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;margin-bottom:1rem;">
+          <div class="feature-icon-wrap">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span style="font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:rgba(6,182,212,0.6);letter-spacing:0.12em;">Economy</span>
+        </div>
+        <p class="feature-title">ECONOMY BALANCE</p>
+        <p class="feature-desc">Balancing ekonomi agar server tetap sehat dan fair.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ PORTOFOLIO ══════════════════ -->
+<section id="portofolio">
+  <div class="orb orb-purple" style="width:450px;height:450px;top:50%;left:-100px;transform:translateY(-50%);"></div>
+
+  <div class="container" style="position:relative;">
+    <div class="text-center" style="margin-bottom:4rem;">
+      <span class="section-label text-amethyst">// LEGACY_LOG</span>
+      <h2 class="section-title">Server yang Pernah <span class="gradient-purple">Kami Kerjakan</span></h2>
+      <p class="section-sub">Track record kami membuktikan kualitas dan pengalaman dalam mengembangkan server Minecraft.</p>
+    </div>
+
+    <!-- Server Cards -->
+    <div class="portfolio-grid">
+
+      <div class="portfolio-card glass-card">
+        <div class="portfolio-card-head">
+          <div class="portfolio-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+        </div>
+        <p class="portfolio-name">DEXURA EVOLVED</p>
+        <p class="portfolio-status">Completed</p>
+      </div>
+
+      <div class="portfolio-card glass-card">
+        <div class="portfolio-card-head">
+          <div class="portfolio-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+        </div>
+        <p class="portfolio-name">DEMN SMP</p>
+        <p class="portfolio-status">Completed</p>
+      </div>
+
+      <div class="portfolio-card glass-card">
+        <div class="portfolio-card-head">
+          <div class="portfolio-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+        </div>
+        <p class="portfolio-name">VENTURA NETWORK</p>
+        <p class="portfolio-status">Completed</p>
+      </div>
+
+      <div class="portfolio-card glass-card">
+        <div class="portfolio-card-head">
+          <div class="portfolio-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:var(--amethyst)"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+          </div>
+          <div class="portfolio-check">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+          </div>
+        </div>
+        <p class="portfolio-name">VENTURA LEGENDS</p>
+        <p class="portfolio-status">Completed</p>
+      </div>
+
+    </div>
+
+    <!-- Ticker -->
+    <div class="ticker-wrap glass-card" style="margin-bottom:2rem;">
+      <div class="ticker-track">
+        <span class="ticker-item"><span class="ticker-dot"></span>DEXURA EVOLVED</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>DEMN SMP</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>VENTURA NETWORK</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>VENTURA LEGENDS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Dan masih banyak lagi!</span>
+        <!-- duplicate for seamless loop -->
+        <span class="ticker-item"><span class="ticker-dot"></span>DEXURA EVOLVED</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>DEMN SMP</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>VENTURA NETWORK</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>VENTURA LEGENDS</span>
+        <span class="ticker-item"><span class="ticker-dot"></span>Dan masih banyak lagi!</span>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <div class="gallery-grid">
+      <div class="gallery-item glass-card">
+        <div class="gallery-img-wrap">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/00210ea89_Screenshot2026-03-03140427.png" alt="Screenshot proyek 1" loading="lazy" />
+        </div>
+      </div>
+      <div class="gallery-item glass-card">
+        <div class="gallery-img-wrap">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/d924e664d_Screenshot2026-03-03140438.png" alt="Screenshot proyek 2" loading="lazy" />
+        </div>
+      </div>
+      <div class="gallery-item glass-card">
+        <div class="gallery-img-wrap">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/059670783_Screenshot2026-03-03140544.png" alt="Screenshot proyek 3" loading="lazy" />
+        </div>
+      </div>
+      <div class="gallery-item glass-card">
+        <div class="gallery-img-wrap">
+          <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/6e98e52ce_Screenshot2026-03-03140453.png" alt="Screenshot proyek 4" loading="lazy" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ══════════════════ FAQ ══════════════════ -->
+<section id="faq">
+  <div class="orb orb-cyan" style="width:500px;height:500px;bottom:0;left:50%;transform:translateX(-50%);"></div>
+
+  <div class="container" style="position:relative;">
+    <div class="text-center" style="margin-bottom:4rem;">
+      <span class="section-label text-diamond">// FAQ_DATABASE</span>
+      <h2 class="section-title">Pertanyaan <span class="gradient-cyan">Umum</span></h2>
+      <p class="section-sub">Jawaban untuk pertanyaan yang sering ditanyakan oleh calon klien kami.</p>
+    </div>
+
+    <div class="faq-list">
+
+      <div class="faq-item glass-card">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-question-left">
+            <span class="faq-num">01</span>
+            Berapa lama proses pengerjaan server?
+          </span>
+          <span class="faq-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <p>Tergantung paket yang dipilih. Untuk paket Starter (Economy Biasa), pengerjaan biasanya selesai dalam 1-3 hari. Paket Popular dan Ultimate bisa memakan waktu 3-7 hari tergantung kompleksitas fitur yang diminta.</p>
+        </div>
+      </div>
+
+      <div class="faq-item glass-card">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-question-left">
+            <span class="faq-num">02</span>
+            Apakah saya bisa request fitur custom di luar paket?
+          </span>
+          <span class="faq-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <p>Tentu! Kami menerima request fitur custom. Silakan hubungi kami via WhatsApp untuk diskusi lebih lanjut mengenai fitur tambahan dan estimasi biayanya.</p>
+        </div>
+      </div>
+
+      <div class="faq-item glass-card">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-question-left">
+            <span class="faq-num">03</span>
+            Apakah ada garansi setelah server selesai?
+          </span>
+          <span class="faq-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <p>Ya, semua paket mendapatkan garansi support. Jika ada bug atau error pada fitur yang kami buat, kami akan memperbaikinya tanpa biaya tambahan selama masa garansi.</p>
+        </div>
+      </div>
+
+      <div class="faq-item glass-card">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          <span class="faq-question-left">
+            <span class="faq-num">04</span>
+            Server saya bisa digunakan untuk Minecraft versi berapa?
+          </span>
+          <span class="faq-chevron">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer">
+          <p>Kami mendukung pengembangan server untuk Minecraft Java Edition maupun Bedrock Edition. Versi yang didukung mulai dari 1.16 hingga versi terbaru. Silakan konsultasikan kebutuhan versi spesifik Anda.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ TESTIMONI ══════════════════ -->
+<section id="testimoni">
+  <div class="orb orb-purple" style="width:380px;height:380px;top:0;right:-80px;"></div>
+
+  <div class="container" style="position:relative;">
+    <div class="text-center" style="margin-bottom:4rem;">
+      <span class="section-label text-amethyst">// CLIENT_FEEDBACK</span>
+      <h2 class="section-title">Apa Kata <span class="gradient-purple">Mereka</span></h2>
+      <p class="section-sub">Testimoni dari klien-klien kami yang sudah merasakan kualitas layanan MZ STORE.</p>
+    </div>
+
+    <div class="testi-grid">
+
+      <div class="testi-card glass-card">
+        <div class="testi-quote">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+        </div>
+        <p class="testi-text">"Server yang dibuat MZ STORE sangat profesional. Fitur economy dan gacha-nya bikin player betah main. Recommended banget!"</p>
+        <div class="testi-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testi-author">
+          <div class="testi-avatar">R</div>
+          <div>
+            <p class="testi-name">RizkiMC</p>
+            <p class="testi-role">Owner DEMN SMP</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card">
+        <div class="testi-quote">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+        </div>
+        <p class="testi-text">"Pengerjaan cepat, fitur custom sesuai request, dan support-nya responsif. Harga sangat worth it untuk kualitas yang didapat."</p>
+        <div class="testi-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div>
+            <p class="testi-name">AzkaGaming</p>
+            <p class="testi-role">Owner Dexura Evolved</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card glass-card">
+        <div class="testi-quote">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+        </div>
+        <p class="testi-text">"Udah 2x order di MZ STORE dan hasilnya selalu memuaskan. Village Shop custom-nya keren banget, player pada suka."</p>
+        <div class="testi-stars">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+        </div>
+        <div class="testi-author">
+          <div class="testi-avatar">F</div>
+          <div>
+            <p class="testi-name">FarelKraft</p>
+            <p class="testi-role">Owner Ventura Network</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════════ FOOTER ══════════════════ -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img src="https://media.base44.com/images/public/user_69e77b8ab23e655ecfbd50a0/12f0b3423_ChatGPTImage27Jun2026181929.png" alt="MZ STORE Logo" />
+        <p>Jasa Developer Server Minecraft Profesional. Mewujudkan server impianmu dengan fitur kustom dan performa terbaik.</p>
+      </div>
+
+      <div>
+        <p class="footer-col-title">// QUICK_NAV</p>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#harga">Harga</a></li>
+          <li><a href="#fitur">Fitur</a></li>
+          <li><a href="#portofolio">Portofolio</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#testimoni">Testimoni</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <p class="footer-col-title">// HUBUNGI_KAMI</p>
+        <a href="https://wa.me/6289612695912?text=Halo%20MZ%20STORE,%20saya%20ingin%20order%20jasa%20pembuatan%20server%20Minecraft" target="_blank" rel="noopener noreferrer" class="footer-cta-btn" style="display:inline-flex;">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          Chat via WhatsApp
+        </a>
+        <p class="footer-wa">WA: 089612695912</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">&copy; <span id="yr"></span> MZ STORE. All rights reserved.</p>
+      <div class="footer-status">
+        <span class="status-dot"></span>
+        <span class="status-text">System Status: Online</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ══════════════════ JAVASCRIPT ══════════════════ -->
+<script>
+  // Year
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Navbar scroll
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Mobile menu
+  const mobileMenu = document.getElementById('mobileMenu');
+  document.getElementById('hamburgerBtn').addEventListener('click', () => {
+    mobileMenu.classList.add('open');
+  });
+  document.getElementById('closeMenuBtn').addEventListener('click', closeMenu);
+  function closeMenu() { mobileMenu.classList.remove('open'); }
+
+  // Close menu on outside click
+  document.addEventListener('click', (e) => {
+    if (mobileMenu.classList.contains('open') &&
+        !mobileMenu.contains(e.target) &&
+        !document.getElementById('hamburgerBtn').contains(e.target)) {
+      closeMenu();
+    }
+  });
+
+  // FAQ accordion
+  function toggleFaq(btn) {
+    const item = btn.closest('.faq-item');
+    const isOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.faq-item.open').forEach(el => el.classList.remove('open'));
+    // Open clicked if it was closed
+    if (!isOpen) item.classList.add('open');
+  }
+</script>
+
+</body>
+</html>
